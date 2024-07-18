@@ -2,6 +2,36 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Movie Search App
+A React application that allows users to search for movies using the Open Library API and displays random dog images for each movie card.
+
+# Features
+Search for movies using the Open Library Search API
+Display movie details along with a random dog image for each movie card
+Responsive design with attractive UI
+Loading indicator while fetching data
+Error handling for failed API requests
+
+# Prerequisites
+Node.js (https://nodejs.org/)
+
+# Components
+App.js: The main component that handles the state of the application and renders the search bar, loader, movie list, and error messages.
+
+SearchBar: A component that contains the search bar where users can enter a movie name.
+
+MovieList: A component that renders a list of movie cards.
+
+MovieCard: A component that displays movie details and a random dog image.
+
+Loader: A component that displays a loading spinner.
+
+Api: Contains functions to fetch movie data from the Open Library API and random dog images from the Dog CEO API.
+
+# Additional Information
+Open Library API: https://openlibrary.org/dev/docs/api/search
+Dog CEO API: https://dog.ceo/dog-api/
+
 ## Available Scripts
 
 In the project directory, you can run:
